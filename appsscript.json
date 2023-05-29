@@ -1,0 +1,38 @@
+{
+  "timeZone": "America/Vancouver",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "addItemsToUpcData",
+      "functionName": "addItemsToUpcData",
+      "defaultShortcut": "Ctrl+Alt+Shift+3"
+    }, {
+      "menuName": "addItemsToUpcData_ItemsNotFound",
+      "functionName": "addItemsToUpcData_ItemsNotFound",
+      "defaultShortcut": "Ctrl+Alt+Shift+4"
+    }, {
+      "menuName": "moveToItemSearch",
+      "functionName": "moveToItemSearch",
+      "defaultShortcut": "Ctrl+Alt+Shift+9"
+    }, {
+      "menuName": "moveToManualScan",
+      "functionName": "moveToManualScan",
+      "defaultShortcut": "Ctrl+Alt+Shift+6"
+    }, {
+      "menuName": "moveToScanLog",
+      "functionName": "moveToScanLog",
+      "defaultShortcut": "Ctrl+Alt+Shift+5"
+    }, {
+      "menuName": "moveToUpcDatabse",
+      "functionName": "moveToUpcDatabse",
+      "defaultShortcut": "Ctrl+Alt+Shift+8"
+    }, {
+      "menuName": "unmarryUPC",
+      "functionName": "unmarryUPC",
+      "defaultShortcut": "Ctrl+Alt+Shift+7"
+    }]
+  }
+}
